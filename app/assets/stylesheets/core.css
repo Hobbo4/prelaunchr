@@ -65,7 +65,7 @@ html.home {
   -webkit-box-pack:center;
   -webkit-box-align:center;
   overflow-x: hidden; 
-	overflow-y: auto; 
+	overflow-y: hidden; 
 	}
 }
 	
