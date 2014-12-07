@@ -1,6 +1,6 @@
 Prelaunchr::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
-
+	config.assets.initialize_on_precompile = false
   # Code is not reloaded between requests
   config.cache_classes = true
 
@@ -21,6 +21,7 @@ Prelaunchr::Application.configure do
   config.assets.digest = true
 
   config.assets.precompile += %w( core.css bootstrap.css reset.css )
+	
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
