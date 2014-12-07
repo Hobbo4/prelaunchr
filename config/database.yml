@@ -23,7 +23,7 @@ production:
   password: A3deJnDSF5sG_J2-5LNb49yIX6
 port: 5432
 
-log_database_production:
+zapier:
   adapter: postgresql
   encoding: unicode
   database: dckfo1c47633g2
