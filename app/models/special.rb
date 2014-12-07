@@ -1,3 +1,3 @@
 class AccessLog < ActiveRecord::Base
-  establish_connection "log_database_#{Rails.env}"
+  establish_connection "log_database_production"
 end
