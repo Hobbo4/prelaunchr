@@ -30,9 +30,45 @@ form{
 
 /* Home */
 
-html.home{
-	background: #EDECEA;
+html.home {	
+	position:relative;
+	padding:80px 15px;
+	color:#FFF;
+	text-align:center;
+	text-shadow:0 1px 0 rgba(0,0,0,.1);
+	background-color:#6883cc;
+	background: url(/assets/home/109H.jpg) center center no-repeat;	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
 }
+
+ @media (max-width: 720px) {
+	 /*Media Queries for smaller devices*/
+	html.home {
+	background-attachment: scroll;
+	height: 100%; 
+  background-color: white;
+	background: url(/assets/home/109Hmob.jpg) center center no-repeat;	background-repeat:no-repeat;
+  background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: left top;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  overflow-x: hidden; 
+	overflow-y: auto; 
+	}
+}
+	
 
 #home{
 	padding-bottom: 50px;
@@ -44,38 +80,21 @@ html.home{
 }
 
 #home .hero{
-	width: 100%;
-	height: 446px;
-	background: url(/assets/home/hero.jpg) center center no-repeat;
-	background-size: 1600px 446px;
-	overflow: hidden;
-	position: relative;
-	letter-spacing: .09em;
-	margin: 0 auto;
+	
 }
 
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
-	text-transform: uppercase;
-	margin: 85px 0 0 136px;
-	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
 }
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
 	font-size: 18px;
-	margin: 10px 0 0 115px;
 	line-height: 30px;
-	position: relative;
 	z-index: 2;
-	text-transform: uppercase;
-	text-align: center;
-	width: 375px;
 	letter-spacing: 1px;
 }
 
@@ -86,11 +105,11 @@ html.home{
 }
 
 #home .form-wrap .key{
-	width: 46px;
-	height: 19px;
+	width: 50px;
+	height: 50px;
 	margin: 0 auto;
-	background: url(/assets/home/key.png) 0 0 no-repeat;
-	background-size: 46px 19px;
+	background: url(/assets/home/EPgreen.png) 0 0 no-repeat;
+	background-size: 50px;
 }
 
 #home .form-wrap .byline{
@@ -636,7 +655,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#home .form-wrap .key{
-		background: url(/assets/home/key@2x.png) 0 0 no-repeat;
+		background: url(/assets/home/EPgreen.png) 0 0 no-repeat;
 		background-size: 46px 19px;
 	}
 
