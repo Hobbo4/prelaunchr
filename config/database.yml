@@ -4,8 +4,6 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 
-<% %w(development test production).each do |env| %>
-
 development:
   adapter: postgresql
   encoding: unicode
@@ -35,5 +33,3 @@ zapier:
   username: tkligmptxihmkg
   password: 63qLjSufGkWPxSouUXnXZuASVH
 port: 5432
-
-end
