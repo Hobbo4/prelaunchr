@@ -5,7 +5,7 @@
 <!--[if IE 9 ]>    <html class="ie9 <%= @bodyId %>"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="<%= @bodyId %>"> <!--<![endif]-->
 <head>
-        <title>Harry&#8217;s &ndash; Tell Friends, Shave for Free</title>
+        <title>Tell Friends, Get Premium Everpresent</title>
         <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
         <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
 
@@ -15,7 +15,7 @@
         <meta property="og:url" content="<%= root_url %>"/>
         <%= stylesheet_link_tag "core.css", :media => "all" %>
         <%= csrf_meta_tags %>
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body id="<%= @bodyId %>">
 
