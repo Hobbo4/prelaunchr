@@ -1,6 +1,4 @@
 class User < ActiveRecord::Base
-		establish_connection PRIMARY_DB_CONFIG
-		establish_connection SECONDARY_DB_CONFIG
     belongs_to :referrer, :class_name => "User", :foreign_key => "referrer_id"
     has_many :referrals, :class_name => "User", :foreign_key => "referrer_id"
     
@@ -57,5 +55,4 @@ class User < ActiveRecord::Base
     def send_welcome_email
         UserMailer.delay.signup_email(self)
     end
-		
 end
