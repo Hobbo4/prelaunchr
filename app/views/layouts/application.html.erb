@@ -19,9 +19,9 @@
 				<link href='http://fonts.googleapis.com/css?family=Roboto:700,400' rel='stylesheet' type='text/css'>
 				        <% if @is_mobile %>
             <% if @bodyId == 'home' %>
-                <meta name="viewport" content="width=1600" />
+                <meta name="viewport" content="width=device-width height=device-height, initial-scale=1.0">
             <% else %>
-                <meta name="viewport" content="width=1120" />
+                <meta name="viewport" content="width=1120" user-scalable="no"/>
             <% end %>
         <% end %>
 </head>
