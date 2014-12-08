@@ -367,7 +367,7 @@ html.home {
 	line-height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #074E6F;
+	color: #002E44;
 	margin-top: 18px;
 	letter-spacing: .13em;
 }
@@ -435,7 +435,7 @@ html.home {
 #refer .prizes .callout{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #002E44;
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
@@ -483,7 +483,7 @@ html.home {
 #refer .prizes .products li.title{
 	height: 100%;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #002E44;
 	font-weight: 500;
 	font-size: 14px;
 	float: left;
@@ -504,7 +504,7 @@ html.home {
 
 #refer .prizes .products li.product{
 	height: 100%;
-	color: #074E6F;
+	color: #002E44;
 	width: 125px;
 	margin-right: 129px;
 	float: left;
@@ -572,14 +572,14 @@ html.home {
 
 #refer .prizes .products li.product:hover .circle{
 	color: #FFF;
-	background: #074E6F;
-	border-color: #074E6F;
+	background: #FF9A16;
+	border-color: #FF9A16;
 }
 
 #refer .prizes .products li.product .tooltip{
 	height: 254px;
 	width: 190px;
-	border: 4px solid #074E6F;
+	border: 4px solid #353535;
 	position: absolute;
 	top: -285px;
 	left: -32px;
@@ -599,7 +599,7 @@ html.home {
 #refer .prizes p.place{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #002E44;
 	width: 100%;
 	font-weight: 500;
 	margin-top: 30px;
@@ -625,6 +625,17 @@ html.home {
 	width: 100%;
 	font-weight: 500;
 	margin-top: 50px;
+}
+
+#refer .prizes a.sitelink{
+	text-align: center;
+	font-size: 18px;
+	color: #575757;
+	width: 100%;
+	font-weight: 500;
+	margin-top: 30px;
+	display: block;
+	text-decoration: none;
 }
 
 #refer .prizes a.policy{

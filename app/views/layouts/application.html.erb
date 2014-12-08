@@ -9,9 +9,9 @@
         <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
         <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
 
-        <meta property="og:title" content="Harry’s is coming!"/>
-        <meta property="og:description" content="Shaving is evolving. Didn’t want to leave you all behind. Check out Harry’s here."/>
-        <meta property="og:image" content="<%= asset_path("refer/truman.png") %>"/>
+        <meta property="og:title" content="Everpresent is coming!"/>
+        <meta property="og:description" content="Your New Secret Weapon. Didn't want to leave you all behind. Get around Everpresent here!"/>
+        <meta property="og:image" content="<%= asset_path("refer/EPgreen.png") %>"/>
         <meta property="og:url" content="<%= root_url %>"/>
         <%= stylesheet_link_tag "core.css", :media => "all" %>
         <%= csrf_meta_tags %>
@@ -19,6 +19,23 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 </head>
 <body id="<%= @bodyId %>">
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1497411967214441',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <%= yield %>
 
