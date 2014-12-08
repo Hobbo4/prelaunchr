@@ -1,7 +1,7 @@
 <div class="key"></div>
 <div class="hero">
     <p class="large brandon">Everpresent | social media automation.<br>Invite friends. Pay nothing.</p>
-    <p class="small brandon">And win some nice things along the way...</p>
+    <p class="small brandon">Oh and win some nice things...</p>
 </div>
 
 
@@ -13,7 +13,7 @@
         <p class="again brandon">Thank You Again!</p>
     <% else %>
         <div class="key"></div>
-        <p class="byline brandon">2 years free? We'll show you how.</p>
+        <p class="byline brandon">Be the first to know</p>
         <%= form_for @user, :url => { :action => "create" } do |f| %>
 	<%= f.text_field :email, :placeholder => "Email Address", :class => "email brandon" %>
             <input class="submit brandon" name="commit" type="submit" value="Step Inside" />

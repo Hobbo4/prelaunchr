@@ -14,9 +14,16 @@
         <meta property="og:image" content="<%= asset_path("refer/headerlogo.png") %>"/>
         <meta property="og:url" content="<%= root_url %>"/>
         <%= stylesheet_link_tag "core.css", :media => "all" %>
+	<!-- Latest compiled and minified CSS -->
         <%= csrf_meta_tags %>
 				<link href='http://fonts.googleapis.com/css?family=Roboto:700,400' rel='stylesheet' type='text/css'>
-				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+				        <% if @is_mobile %>
+            <% if @bodyId == 'home' %>
+                <meta name="viewport" content="width=1600" />
+            <% else %>
+                <meta name="viewport" content="width=1120" />
+            <% end %>
+        <% end %>
 </head>
 <body id="<%= @bodyId %>">
 	<script>
