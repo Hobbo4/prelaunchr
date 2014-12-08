@@ -11,8 +11,8 @@
         </div>
         <div class="share-wrap">
             <p class="why brandon">Don't leave your friends behind</p>
-            <p class="title brandon">INVITE FRIENDS.<br>PAY NOTHING.</p>
-            <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn free Everpresent months<br>each friend who signs up.</p>
+            <p class="title brandon">INVITE FRIENDS.<br>Get STUFF.</p>
+            <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn Everpresent months/stuff<br>for each friend who signs up.</p>
             <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
             <% twitter_message = "#Shaving is evolving. Excited for @harrys to launch." %>
             <div class="social-links">
@@ -44,7 +44,7 @@
     <div class="page-content">
         <p class="callout brandon">Here's How It Works:</p>
         <ul class="products clearfix">
-            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Harry's Product</p></li>
+            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Gifts Earned</p></li>
             <% stops.each do |stop| %>
                 <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
                     <div class="circle"><%= stop["count"] %></div>

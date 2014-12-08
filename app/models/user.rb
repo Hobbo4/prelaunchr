@@ -16,25 +16,25 @@ class User < ActiveRecord::Base
             'count' => 5,
 					"html" => "One Month<br>Free Everpresent",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
+            "image" =>  ActionController::Base.helpers.asset_path("refer/1month.png")
         },
         {
             'count' => 10,
-					"html" => "Three Months<br>Free Everpresent",
+					"html" => "Three Months<br>+ Love",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/2months@2x.png")
         },
         {
             'count' => 25,
-					"html" => "Six Months<br>+ Course",
+					"html" => "Six Months<br>+ Love<br>+ Course",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/6months@2x.png")
         },
         {
             'count' => 50,
-					"html" => "Two Years<br>+ Course",
+					"html" => "Two Years<br>+ Love<br>+ Course (x2)<br>+ Recognition",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/blade-explain@2x.png")
+					"image" => ActionController::Base.helpers.asset_path("refer/2years@2x.png")
         }
     ]
 
