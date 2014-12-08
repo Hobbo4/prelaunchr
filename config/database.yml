@@ -3,8 +3,17 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
-
 development:
+  adapter: postgresql
+  encoding: unicode
+  database: dbelp1n1puqgsm
+  pool: 5
+  host: ec2-54-83-204-104.compute-1.amazonaws.com
+  username: ajajoefjvswntr
+  password: A3deJnDSF5sG_J2-5LNb49yIX6
+port: 5432
+
+production:
   adapter: postgresql
   encoding: unicode
   database: d9vru7d8daq4og
@@ -12,14 +21,4 @@ development:
   host: ec2-54-221-249-3.compute-1.amazonaws.com
   username: rnmlnttzmsdpxz
   password: Sm7yeW6oNdFI4EUn6jBfEfSkfw
-port: 5432
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: dbelp1n1puqgsm
-  pool: 5
-  host: ec2-54-83-204-104.compute-1.amazonaws.com
-  username: ajajoefjvswntr
-  password: i-kCEfMVDhdppgdLtphtpDV7Gq
 port: 5432
