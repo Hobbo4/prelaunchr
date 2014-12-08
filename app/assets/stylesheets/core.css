@@ -125,7 +125,7 @@ html.home {
 #home .form-wrap .email{
 	float: left;
 	font-size: 13px;
-	padding: 8px 0 8px 10px;
+	padding: 8px 32px 5px 10px;
 	width: 50%;
 	outline: none;
 	letter-spacing: 1px;
@@ -133,10 +133,9 @@ html.home {
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #353535;
+	background: #FF9A16;
 	float: left;
 	height: 37px;
-	line-height: 37px;
 	color: #FFF;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -280,8 +279,8 @@ html.home {
 }
 
 #refer .header{
-	height: 50px;
-	background: #074E6F;
+	height: 55px;
+	background: #353535;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -311,15 +310,15 @@ html.home {
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: url(/assets/refer/logo.png) 0 0 no-repeat;
-	background-size: 106px 19px;
-	height: 19px;
-	width: 106px;
-	margin-top: 15px;
+	background: url(/assets/refer/EPgreen.png) 0 0 no-repeat;
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	margin-top: 2px;
 }
 
 #refer .hero{
-	background: #F1F0EE;
+	background: #fff;
 	height: 391px;
 	overflow: hidden;
 }
@@ -327,8 +326,8 @@ html.home {
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
-	background-size: 610px 394px;
+	background: url(/assets/refer/figure-1.png) 0 0 no-repeat;
+	background-size: 530px 376px;
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
