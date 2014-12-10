@@ -14,25 +14,25 @@ class User < ActiveRecord::Base
     REFERRAL_STEPS = [
         {
             'count' => 5,
-					"html" => "One Month<br>Free Everpresent",
+					"html" => "One Month<br>Free Everpresent<br>($7 Value)",
             "class" => "two",
             "image" =>  ActionController::Base.helpers.asset_path("refer/1month.png")
         },
         {
             'count' => 10,
-					"html" => "Three Months<br>+ Love",
+					"html" => "Three Months<br>+ Love<br>($21 Value)",
             "class" => "three",
             "image" => ActionController::Base.helpers.asset_path("refer/2months@2x.png")
         },
         {
             'count' => 25,
-					"html" => "Six Months<br>+ Love<br>+ Course",
+					"html" => "Six Months<br>+ Love<br>+ Course<br>($141 Value)",
             "class" => "four",
             "image" => ActionController::Base.helpers.asset_path("refer/6months@2x.png")
         },
         {
             'count' => 50,
-					"html" => "Two Years<br>+ Love<br>+ Course (x2)<br>+ Recognition",
+					"html" => "Two Years<br>+ Love<br>+ Course (x2)<br>+ Recognition<br>($304 Value)",
             "class" => "five",
 					"image" => ActionController::Base.helpers.asset_path("refer/2years@2x.png")
         }
