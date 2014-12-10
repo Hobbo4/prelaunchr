@@ -6,19 +6,19 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: dbelp1n1puqgsm
+  database: dckfo1c47633g2
   pool: 5
-  host: ec2-54-83-204-104.compute-1.amazonaws.com
-  username: ajajoefjvswntr
-  password: i-kCEfMVDhdppgdLtphtpDV7Gq
+  host: ec2-54-225-157-157.compute-1.amazonaws.com
+  username: tkligmptxihmkg
+  password: 63qLjSufGkWPxSouUXnXZuASVH
 port: 5432
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: d9vru7d8daq4og
+  database: d7n5d9pqj2cem2
   pool: 5
-  host: ec2-54-221-249-3.compute-1.amazonaws.com
-  username: rnmlnttzmsdpxz
-  password: Sm7yeW6oNdFI4EUn6jBfEfSkfw
+  host: ec2-54-225-157-157.compute-1.amazonaws.com
+  username: yjdjhuxvtyucjl
+  password: xtu39encuHV0lMfn4o9rO_sPdg
 port: 5432
