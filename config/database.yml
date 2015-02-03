@@ -3,7 +3,7 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
-development:
+production:
   adapter: postgresql
   encoding: unicode
   database: dckfo1c47633g2
@@ -13,7 +13,7 @@ development:
   password: 63qLjSufGkWPxSouUXnXZuASVH
 port: 5432
 
-production:
+development:
   adapter: postgresql
   encoding: unicode
   database: d7n5d9pqj2cem2
